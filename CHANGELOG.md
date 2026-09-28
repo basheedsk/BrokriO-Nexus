@@ -135,3 +135,20 @@ All notable changes to BrokriO Nexus are documented here.
 - Inspected LiteSpeed Cache configuration.
 - Audited SEO metadata and found missing stored SEO metadata on the Privacy Policy page.
 - Confirmed additional runtime browser interaction, form submission, Theme Check and PHP lint gates remain open.
+
+
+## Phase 5 — Marketplace Visual Redesign
+
+### Added
+- Reframed the homepage around a premium, image-led real-estate marketplace experience.
+- Introduced a stronger BROKRIO wordmark/header navigation and seller CTA.
+- Upgraded the hero composition with property photography, larger editorial typography and clearer discovery CTAs.
+- Reworked featured property cards with imagery, price, location, metadata, status and action controls.
+- Added property-type discovery and marketplace statistics sections.
+- Refined design tokens toward a warm neutral + deep ink + green real-estate palette.
+- Added responsive visual polish for cards, navigation, hero spacing and mobile layouts.
+
+### Validation
+- WPVibe draft theme preview generated successfully.
+- Block validation issues found during authoring were corrected before continuing.
+- Live theme has not been published from the draft; visual review remains the next gate.
