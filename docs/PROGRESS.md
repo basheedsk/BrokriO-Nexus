@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 65%
+## Current Overall Progress: 70%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -66,6 +66,14 @@ Remaining in Phase 1:
   - [x] Design system final token review
   - [x] Component token consistency review
   - [x] Repository-level design system validation
+
+## Phase 3 — Property & Business Pattern Library
+- [x] Property feature list
+- [x] Property status
+- [x] Property contact card
+- [x] Agent profile
+- [x] Agent property list
+- [x] Agency introduction
 - [ ] Phase 3 — Property & Business Patterns
 - [ ] Phase 4 — Complete Templates
 - [ ] Phase 5 — Integration Readiness
@@ -83,7 +91,7 @@ Before each major step:
 Avoid unrelated feature expansion until the current milestone is complete.
 
 ## Current Next Step
-Begin Phase 2 Design System: finalize visual tokens, typography, color system, spacing, surfaces, buttons, forms and reusable UI foundations.
+Continue Phase 3 Property & Business Pattern Library with agency, advisor and property conversion patterns.
 
 ## Progress Updates
 Each major implementation response should end with:
