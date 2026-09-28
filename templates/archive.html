@@ -1,3 +1,35 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
-<!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} --><main class="wp-block-group"><!-- wp:query-title {"type":"archive","fontSize":"3xl"} /--><!-- wp:query {"query":{"perPage":12,"inherit":true},"displayLayout":{"type":"grid","columns":3}} --><div class="wp-block-query"><!-- wp:post-template --><!-- wp:group {"style":{"border":{"radius":"var:preset|border-radius|md","width":"1px","color":"var:preset|color|border"},"spacing":{"padding":{"top":"20px","bottom":"20px","left":"20px","right":"20px"}}}} --><div class="wp-block-group has-border-color" style="border-radius:var(--wp--preset--border-radius--md);border-width:1px;padding:20px"><!-- wp:post-featured-image {"isLink":true,"height":"220px"} /--><!-- wp:post-title {"isLink":true,"fontSize":"lg"} /--><!-- wp:post-excerpt {"fontSize":"sm"} /--></div><!-- /wp:group --><!-- /wp:post-template --><!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} /--></div><!-- /wp:query --></main><!-- /wp:group -->
+<!-- wp:group {"tagName":"main","align":"wide","layout":{"type":"constrained"},"style":{"spacing":{"padding":{"top":"72px","bottom":"80px"}}}} -->
+<main class="wp-block-group alignwide" style="padding-top:72px;padding-bottom:80px">
+<!-- wp:paragraph {"textColor":"brand","fontSize":"xs","className":"brokrio-eyebrow"} --><p class="has-brand-color has-text-color has-xs-font-size brokrio-eyebrow">PROPERTY MARKETPLACE</p><!-- /wp:paragraph -->
+<!-- wp:query-title {"type":"archive","fontSize":"3xl"} /-->
+<!-- wp:paragraph {"textColor":"muted","fontSize":"md"} --><p class="has-muted-color has-text-color has-md-font-size">Browse homes, apartments, land and investment opportunities. Each listing is designed to move from discovery to enquiry.</p><!-- /wp:paragraph -->
+<!-- wp:group {"className":"brokrio-archive-toolbar","backgroundColor":"surface","style":{"border":{"radius":"var:preset|border-radius|md","width":"1px","color":"var:preset|color|border"},"spacing":{"padding":{"top":"18px","bottom":"18px","left":"20px","right":"20px"},"margin":{"top":"28px","bottom":"28px"}}},"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap"}} -->
+<div class="wp-block-group brokrio-archive-toolbar has-surface-background-color has-background has-border-color" style="border-radius:var(--wp--preset--border-radius--md);border-width:1px;margin-top:28px;margin-bottom:28px;padding:18px 20px">
+<!-- wp:paragraph {"fontSize":"sm"} --><p class="has-sm-font-size"><strong>Featured marketplace view</strong></p><!-- /wp:paragraph -->
+<!-- wp:search {"label":"Search properties","showLabel":false,"placeholder":"Search properties…","buttonText":"Search","buttonPosition":"button-inside"} /-->
+</div>
+<!-- /wp:group -->
+<!-- wp:query {"query":{"perPage":12,"inherit":true},"displayLayout":{"type":"grid","columns":3},"className":"brokrio-archive-grid"} -->
+<div class="wp-block-query brokrio-archive-grid">
+<!-- wp:post-template -->
+<!-- wp:group {"className":"brokrio-property-card","style":{"border":{"radius":"var:preset|border-radius|md","width":"1px","color":"var:preset|color|border"},"shadow":"var:preset|shadow|card"},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group brokrio-property-card has-border-color" style="border-radius:var(--wp--preset--border-radius--md);border-width:1px;box-shadow:var(--wp--preset--shadow--card)">
+<!-- wp:post-featured-image {"isLink":true,"height":"250px","className":"brokrio-card-image"} /-->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"20px","bottom":"22px","left":"20px","right":"20px"},"blockGap":"8px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding:20px">
+<!-- wp:post-date {"textColor":"muted","fontSize":"xs"} /-->
+<!-- wp:post-title {"isLink":true,"fontSize":"lg"} /-->
+<!-- wp:post-excerpt {"textColor":"muted","fontSize":"sm","moreText":"View property →"} /-->
+</div>
+<!-- /wp:group -->
+</div>
+<!-- /wp:group -->
+<!-- /wp:post-template -->
+<!-- wp:query-no-results --><p>No properties found yet. Add listings to populate the marketplace.</p><!-- /wp:query-no-results -->
+<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"},"style":{"spacing":{"margin":{"top":"36px"}}}} /-->
+</div>
+<!-- /wp:query -->
+</main>
+<!-- /wp:group -->
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
