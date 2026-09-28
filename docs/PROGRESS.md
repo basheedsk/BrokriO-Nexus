@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 35%
+## Current Overall Progress: 40%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -37,6 +37,10 @@ Remaining in Phase 1:
   - [x] Spacing scale
   - [x] Border radius and shadow tokens
   - [x] Form/control foundations
+  - [x] Property card pattern
+  - [x] Property search pattern
+  - [x] Section heading pattern
+  - [x] Property badge pattern
 - [ ] Phase 3 — Property & Business Patterns
 - [ ] Phase 4 — Complete Templates
 - [ ] Phase 5 — Integration Readiness
