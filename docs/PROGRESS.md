@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 30%
+## Current Overall Progress: 35%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -32,6 +32,11 @@ Remaining in Phase 1:
 - [x] Phase 0 — Product plan
 - [x] Phase 1 — FSE Foundation
 - [ ] Phase 2 — Design System
+  - [x] Core color roles
+  - [x] Typography tokens
+  - [x] Spacing scale
+  - [x] Border radius and shadow tokens
+  - [x] Form/control foundations
 - [ ] Phase 3 — Property & Business Patterns
 - [ ] Phase 4 — Complete Templates
 - [ ] Phase 5 — Integration Readiness
