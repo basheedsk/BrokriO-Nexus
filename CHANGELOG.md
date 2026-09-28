@@ -152,3 +152,9 @@ All notable changes to BrokriO Nexus are documented here.
 - WPVibe draft theme preview generated successfully.
 - Block validation issues found during authoring were corrected before continuing.
 - Live theme has not been published from the draft; visual review remains the next gate.
+
+
+### Phase 5 — Property Marketplace UX
+- Redesigned property archive into a marketplace-style listing grid with search, hierarchy, imagery and pagination.
+- Upgraded single-property presentation with gallery, price/location hierarchy, feature list, advisor/contact sidebar and viewing CTA.
+- Added visual CSS polish for archive cards, gallery imagery and sticky property sidebar.
