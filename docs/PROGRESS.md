@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 70%
+## Current Overall Progress: 75%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -74,6 +74,11 @@ Remaining in Phase 1:
 - [x] Agent profile
 - [x] Agent property list
 - [x] Agency introduction
+  - [x] Agency profile
+  - [x] Advisor directory
+  - [x] Trust signals
+  - [x] Testimonial strip
+  - [x] Business contact conversion
 - [ ] Phase 3 — Property & Business Patterns
 - [ ] Phase 4 — Complete Templates
 - [ ] Phase 5 — Integration Readiness
