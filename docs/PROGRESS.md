@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 95%
+## Current Overall Progress: 98%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -21,91 +21,45 @@ Completed:
 - Single template
 - Archive template
 - Search template
+- Hostinger WordPress runtime connection
+- WPVibe runtime integration
+- Live theme activation verification
+- Homepage live-render inspection
+- Mobile performance audit
+- Runtime post-type inventory
+- LiteSpeed cache configuration inspection
+- SEO metadata audit
 
-Remaining in Phase 1:
-- Foundation validation and markup review
-- Responsive/global foundation polish
-- Final activation/structure checks
-- Final template markup validation
+### Runtime QA findings
+- Live homepage is reachable and renders as a WordPress FSE site.
+- Mobile Lighthouse/PageSpeed lab audit: 100/100 performance.
+- LCP 1.6s, CLS 0, TBT 0ms, FCP 0.9s, Speed Index 2.4s.
+- No performance opportunities were flagged in the cached audit.
+- Field/Core Web Vitals data is unavailable because the staging site has insufficient real-user traffic.
+- Privacy Policy currently lacks stored SEO title, meta description and canonical metadata.
+- LiteSpeed cache and object cache are enabled; minification/image optimization/lazy-loading are currently disabled.
+- Route audit calls for homepage, sample-page and a deliberately missing route completed successfully, but the audit endpoint returns performance measurements rather than a full interactive browser test.
 
 ## Roadmap
 - [x] Phase 0 — Product plan
 - [x] Phase 1 — FSE Foundation
-- [ ] Phase 2 — Design System
-  - [x] Core color roles
-  - [x] Typography tokens
-  - [x] Spacing scale
-  - [x] Border radius and shadow tokens
-  - [x] Form/control foundations
-  - [x] Property card pattern
-  - [x] Property search pattern
-  - [x] Section heading pattern
-  - [x] Property badge pattern
-  - [x] Property filter bar
-  - [x] Property grid
-  - [x] Property metadata
-  - [x] Agent card
-  - [x] Property CTA
-  - [x] Listing header
-  - [x] Listing toolbar
-  - [x] Property gallery
-  - [x] Property overview
-  - [x] Property details
-  - [x] Property location
-  - [x] Composed property page layout
-  - [x] Responsive column behavior
-  - [x] Mobile touch targets
-  - [x] Responsive search controls
-  - [x] Focus/interaction polish
-  - [x] Image/object-fit polish
-  - [x] Responsive header structure
-  - [x] Mobile navigation mode
-  - [x] Header brand identity
-  - [x] Footer navigation structure
-  - [x] Footer responsive layout
-  - [x] Design system final token review
-  - [x] Component token consistency review
-  - [x] Repository-level design system validation
-
-## Phase 3 — Property & Business Pattern Library
-- [x] Property feature list
-- [x] Property status
-- [x] Property contact card
-- [x] Agent profile
-- [x] Agent property list
-- [x] Agency introduction
-  - [x] Agency profile
-  - [x] Advisor directory
-  - [x] Trust signals
-  - [x] Testimonial strip
-  - [x] Business contact conversion
-
-## Phase 3 — Homepage & Conversion Experience
-- [x] Property search hero
-- [x] Featured properties
-- [x] How it works
-- [x] Advisor conversion CTA
-- [x] Composed homepage layout
-
-## Phase 3 — Conversion Flows & Template Integration
-- [x] Property enquiry form
-- [x] Seller conversion CTA
-- [x] Partner conversion CTA
-- [x] Homepage conversion flow
-- [x] Property conversion flow
-
-## Phase 3 — Template Integration & Final QA
-- [x] Homepage pattern integrated into index template
-- [x] Property conversion integrated into single template
-- [x] Page template shell validated
-- [x] Archive template aligned with design tokens
-- [x] 404 template validated
-- [x] Header/footer integration verified
-- [x] Phase 3 — Property & Business Patterns
-- [x] Phase 3 — Complete Templates / Integration foundation
-- [x] Phase 3 — Integration Readiness foundation
+- [x] Phase 2 — Design System
+- [x] Phase 3 — Property & Business Pattern Library
+- [x] Phase 3 — Homepage & Conversion Experience
+- [x] Phase 3 — Conversion Flows & Template Integration
 - [ ] Phase 4 — Runtime QA & Performance
 - [ ] Phase 5 — Release & Documentation
+
+## Phase 4 remaining release gates
+- [ ] Full browser/device interaction test
+- [ ] Keyboard navigation and focus test
+- [ ] Reduced-motion runtime test
+- [ ] Property enquiry form submission/validation test
+- [ ] Image/broken-media behavior test
+- [ ] WordPress Theme Check
+- [ ] PHP lint
+- [ ] Final single-property performance measurement
+- [ ] Final documentation/release gate closure
 
 ## Continuity Rule
 Before each major step:
@@ -118,7 +72,7 @@ Before each major step:
 Avoid unrelated feature expansion until the current milestone is complete.
 
 ## Current Next Step
-Run the Phase 4 runtime QA matrix in a WordPress test environment, then record performance measurements and close the release gate.
+Complete the remaining runtime checks that require interactive browser behavior and WordPress code validation, then close the release gate.
 
 ## Progress Updates
 Each major implementation response should end with:
