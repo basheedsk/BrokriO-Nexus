@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 85%
+## Current Overall Progress: 90%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -93,6 +93,14 @@ Remaining in Phase 1:
 - [x] Partner conversion CTA
 - [x] Homepage conversion flow
 - [x] Property conversion flow
+
+## Phase 3 — Template Integration & Final QA
+- [x] Homepage pattern integrated into index template
+- [x] Property conversion integrated into single template
+- [x] Page template shell validated
+- [x] Archive template aligned with design tokens
+- [x] 404 template validated
+- [x] Header/footer integration verified
 - [ ] Phase 3 — Property & Business Patterns
 - [ ] Phase 4 — Complete Templates
 - [ ] Phase 5 — Integration Readiness
