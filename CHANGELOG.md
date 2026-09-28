@@ -45,6 +45,12 @@ All notable changes to BrokriO Nexus are documented here.
 - Added agent card pattern.
 - Added property inquiry/viewing CTA pattern.
 
+### Listing & Property Page Patterns
+- Added listing header and toolbar patterns.
+- Added property gallery and overview patterns.
+- Added property details and location patterns.
+- Added a composed property page layout using reusable components.
+
 ### Progress
 - Phase 1 FSE Foundation is complete at repository-validation level.
 - Phase 2 Design System is now in active implementation.
