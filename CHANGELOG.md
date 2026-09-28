@@ -84,3 +84,10 @@ All notable changes to BrokriO Nexus are documented here.
 - Agency introduction pattern
 
 These patterns extend the existing property discovery system into advisor and agency business experiences.
+
+### Agency & Advisor Experience
+- Added agency profile pattern.
+- Added advisor directory pattern.
+- Added business trust signals pattern.
+- Added testimonial strip pattern.
+- Added business contact conversion pattern.
