@@ -91,3 +91,10 @@ These patterns extend the existing property discovery system into advisor and ag
 - Added business trust signals pattern.
 - Added testimonial strip pattern.
 - Added business contact conversion pattern.
+
+### Homepage & Conversion Experience
+- Added property-search hero pattern.
+- Added featured properties section.
+- Added three-step how-it-works section.
+- Added advisor conversion CTA.
+- Added composed homepage layout combining discovery, trust and conversion patterns.
