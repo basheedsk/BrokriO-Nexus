@@ -63,3 +63,29 @@ textarea {
     padding: 24px;
   }
 }
+
+/* Phase 2 component polish */
+.wp-block-columns { align-items: stretch; }
+.wp-block-column > .wp-block-group { height: 100%; box-sizing: border-box; }
+.wp-block-image img { display: block; width: 100%; object-fit: cover; }
+.wp-block-button__link:focus-visible,
+.wp-block-search__button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible { box-shadow: 0 0 0 4px var(--wp--preset--color--brand-soft); }
+.wp-block-button__link:hover { transform: translateY(-1px); }
+@media (max-width: 781px) {
+  .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column { flex-basis: 100% !important; }
+  .wp-block-cover { min-height: 220px !important; }
+  .wp-block-heading.has-3xl-font-size { font-size: clamp(2.5rem, 11vw, 4rem); }
+  .wp-block-group { max-width: 100%; }
+  .wp-block-buttons { flex-wrap: wrap; }
+  .wp-block-button { max-width: 100%; }
+  .wp-block-button__link { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+}
+@media (max-width: 480px) {
+  .wp-block-search { width: 100%; }
+  .wp-block-search__inside-wrapper { flex-wrap: wrap; }
+  .wp-block-search__input { min-width: 0; width: 100%; }
+  .wp-block-search__button { width: 100%; margin-left: 0; }
+}
