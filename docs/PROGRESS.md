@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 20%
+## Current Overall Progress: 25%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -26,6 +26,7 @@ Remaining in Phase 1:
 - Foundation validation and markup review
 - Responsive/global foundation polish
 - Final activation/structure checks
+- Final template markup validation
 
 ## Roadmap
 - [x] Phase 0 — Product plan
