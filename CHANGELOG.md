@@ -122,3 +122,8 @@ Repository-level structural validation completed. Live WordPress rendering, Them
 - Corrected project progress/stage documentation to reflect completed Phase 3 work.
 - Added `docs/RELEASE-READINESS.md` with validated checks and explicit runtime release blockers.
 - Runtime certification remains pending WordPress activation, Theme Check/PHP lint, browser testing, form workflow testing and performance measurement.
+
+### Phase 4 — Runtime Environment
+- Added a Docker Compose WordPress + MySQL environment for local runtime QA.
+- Mounted the repository theme directly into the WordPress themes directory for iterative testing.
+- Documented the environment and remaining runtime validation gates.
