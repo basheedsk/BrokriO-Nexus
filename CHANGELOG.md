@@ -25,7 +25,14 @@ All notable changes to BrokriO Nexus are documented here.
 - Confirmed required foundation files, template parts, templates, metadata and accessibility foundations are present.
 - Documented runtime limitations: live WordPress activation, browser rendering, PHP lint and Theme Check remain environment-dependent.
 
+### Design System
+- Expanded global color roles and semantic status colors.
+- Expanded spacing and typography tokens.
+- Added radius and shadow tokens.
+- Added global heading, link, button and form-control foundations.
+- Documented the design system in `docs/DESIGN-SYSTEM.md`.
+
 ### Progress
 - Phase 1 FSE Foundation is complete at repository-validation level.
-- Phase 2 Design System is now the active milestone.
+- Phase 2 Design System is now in active implementation.
 
