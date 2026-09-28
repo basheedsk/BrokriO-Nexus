@@ -22,13 +22,6 @@ Completed:
 - Archive template
 - Search template
 - Hostinger WordPress runtime connection
-- WPVibe runtime integration
-- Live theme activation verification
-- Homepage live-render inspection
-- Mobile performance audit
-- Runtime post-type inventory
-- LiteSpeed cache configuration inspection
-- SEO metadata audit
 
 ### Runtime QA findings
 - Live homepage is reachable and renders as a WordPress FSE site.
@@ -50,7 +43,8 @@ Implemented in the current redesign pass:
 - Property-type discovery section.
 - Marketplace-style stats/trust section.
 - Refined responsive spacing, card motion and mobile behavior.
-- WPVibe draft preview generated for visual inspection; live theme remains unchanged.
+- Homepage marketplace design is now committed as the default theme experience in GitHub.
+- The design no longer depends on WPVibe or an external draft to exist in the repository.
 
 ## Roadmap
 - [x] Phase 0 — Product plan
@@ -84,7 +78,7 @@ Before each major step:
 Avoid unrelated feature expansion until the current milestone is complete.
 
 ## Current Next Step
-Review the Phase 5 draft preview visually, then iterate on any remaining homepage issues before publishing or syncing the final marketplace presentation.
+Install/update the GitHub theme and verify the default homepage presentation in WordPress; then continue with marketplace-level property archive and single-property polish.
 
 ## Progress Updates
 Each major implementation response should end with:
