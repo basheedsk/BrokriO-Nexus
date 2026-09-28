@@ -43,7 +43,9 @@ Implemented in the current redesign pass:
 - Property-type discovery section.
 - Marketplace-style stats/trust section.
 - Refined responsive spacing, card motion and mobile behavior.
-- Homepage marketplace design is now committed as the default theme experience in GitHub.
+- Homepage marketplace design is committed as the default theme experience in GitHub.
+- Property archive/search results redesigned as marketplace listing cards.
+- Single-property experience upgraded with image gallery, stronger property overview, feature panel, location section, advisor sidebar and high-contrast enquiry CTA.
 - The design no longer depends on WPVibe or an external draft to exist in the repository.
 
 ## Roadmap
