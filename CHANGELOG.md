@@ -116,3 +116,9 @@ These patterns extend the existing property discovery system into advisor and ag
 
 ### QA Scope
 Repository-level structural validation completed. Live WordPress rendering, Theme Check, PHP lint and browser/device testing remain runtime QA items.
+
+### Release Readiness & Final Validation
+- Completed repository-level release-readiness review.
+- Corrected project progress/stage documentation to reflect completed Phase 3 work.
+- Added `docs/RELEASE-READINESS.md` with validated checks and explicit runtime release blockers.
+- Runtime certification remains pending WordPress activation, Theme Check/PHP lint, browser testing, form workflow testing and performance measurement.
