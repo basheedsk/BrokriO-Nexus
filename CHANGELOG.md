@@ -72,7 +72,6 @@ All notable changes to BrokriO Nexus are documented here.
 - Phase 1 FSE Foundation is complete at repository-validation level.
 - Phase 2 Design System foundation is validated; Phase 3 is the next major milestone.
 
-
 ## Phase 3 — Property & Business Pattern Library
 
 ### Added
@@ -82,29 +81,29 @@ All notable changes to BrokriO Nexus are documented here.
 - Agent profile pattern
 - Agent property list pattern
 - Agency introduction pattern
+- Agency profile pattern
+- Advisor directory pattern
+- Business trust signals pattern
+- Testimonial strip pattern
+- Business contact conversion pattern
 
-These patterns extend the existing property discovery system into advisor and agency business experiences.
+## Phase 3 — Homepage & Conversion Experience
 
-### Agency & Advisor Experience
-- Added agency profile pattern.
-- Added advisor directory pattern.
-- Added business trust signals pattern.
-- Added testimonial strip pattern.
-- Added business contact conversion pattern.
+### Added
+- Property-search hero pattern.
+- Featured properties section.
+- Three-step how-it-works section.
+- Advisor conversion CTA.
+- Composed homepage layout combining discovery, trust and conversion patterns.
 
-### Homepage & Conversion Experience
-- Added property-search hero pattern.
-- Added featured properties section.
-- Added three-step how-it-works section.
-- Added advisor conversion CTA.
-- Added composed homepage layout combining discovery, trust and conversion patterns.
+## Phase 3 — Conversion Flows & Template Integration
 
-### Conversion Flows & Template Integration
-- Added property enquiry form pattern.
-- Added seller conversion CTA.
-- Added partner conversion CTA.
-- Added composed homepage conversion flow.
-- Added composed property conversion flow integrating discovery, trust and enquiry patterns.
+### Added
+- Property enquiry form pattern.
+- Seller conversion CTA.
+- Partner conversion CTA.
+- Composed homepage conversion flow.
+- Composed property conversion flow.
 
 ### Template Integration & Final QA
 - Integrated homepage conversion patterns into the main index template.
@@ -114,16 +113,25 @@ These patterns extend the existing property discovery system into advisor and ag
 - Polished the 404 template and confirmed shared header/footer usage.
 - Verified all core templates reference the shared header and footer parts.
 
-### QA Scope
-Repository-level structural validation completed. Live WordPress rendering, Theme Check, PHP lint and browser/device testing remain runtime QA items.
-
 ### Release Readiness & Final Validation
 - Completed repository-level release-readiness review.
 - Corrected project progress/stage documentation to reflect completed Phase 3 work.
 - Added `docs/RELEASE-READINESS.md` with validated checks and explicit runtime release blockers.
-- Runtime certification remains pending WordPress activation, Theme Check/PHP lint, browser testing, form workflow testing and performance measurement.
+- Runtime certification remained pending WordPress activation, Theme Check/PHP lint, browser testing, form workflow testing and performance measurement.
 
 ### Phase 4 — Runtime Environment
 - Added a Docker Compose WordPress + MySQL environment for local runtime QA.
 - Mounted the repository theme directly into the WordPress themes directory for iterative testing.
 - Documented the environment and remaining runtime validation gates.
+
+### Phase 4 — Hostinger Runtime QA
+- Connected the Hostinger WordPress staging site through WPVibe.
+- Verified BrokriO Nexus is the active theme.
+- Verified WPVibe runtime integration and WP-CLI availability.
+- Inspected live homepage HTML and FSE-generated global styles.
+- Recorded mobile performance audit: 100/100 lab performance, LCP 1.6s, CLS 0, TBT 0ms, FCP 0.9s.
+- Confirmed no performance opportunities were flagged by the cached audit.
+- Audited available WordPress post types and confirmed standard Posts, Pages and Media only.
+- Inspected LiteSpeed Cache configuration.
+- Audited SEO metadata and found missing stored SEO metadata on the Privacy Policy page.
+- Confirmed additional runtime browser interaction, form submission, Theme Check and PHP lint gates remain open.
