@@ -5,7 +5,7 @@
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
 ### Current Stage
-**Phase 3 — Release Readiness & Final Validation**
+**Phase 4 — Runtime QA & Performance Validation**
 
 Completed:
 - Theme product/development plan
@@ -118,7 +118,7 @@ Before each major step:
 Avoid unrelated feature expansion until the current milestone is complete.
 
 ## Current Next Step
-Run live WordPress runtime QA when a WordPress test environment is available, then prepare the release package.
+Run the Phase 4 runtime QA matrix in a WordPress test environment, then record performance measurements and close the release gate.
 
 ## Progress Updates
 Each major implementation response should end with:
