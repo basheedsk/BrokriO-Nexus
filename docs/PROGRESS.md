@@ -1,11 +1,11 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 25%
+## Current Overall Progress: 30%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
 ### Current Stage
-**Phase 1 — FSE Foundation**
+**Phase 2 — Design System**
 
 Completed:
 - Theme product/development plan
@@ -30,7 +30,7 @@ Remaining in Phase 1:
 
 ## Roadmap
 - [x] Phase 0 — Product plan
-- [ ] Phase 1 — FSE Foundation
+- [x] Phase 1 — FSE Foundation
 - [ ] Phase 2 — Design System
 - [ ] Phase 3 — Property & Business Patterns
 - [ ] Phase 4 — Complete Templates
@@ -49,7 +49,7 @@ Before each major step:
 Avoid unrelated feature expansion until the current milestone is complete.
 
 ## Current Next Step
-Finish Phase 1 validation/foundation polish, then begin Phase 2 Design System.
+Begin Phase 2 Design System: finalize visual tokens, typography, color system, spacing, surfaces, buttons, forms and reusable UI foundations.
 
 ## Progress Updates
 Each major implementation response should end with:
