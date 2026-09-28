@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 45%
+## Current Overall Progress: 50%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -46,6 +46,13 @@ Remaining in Phase 1:
   - [x] Property metadata
   - [x] Agent card
   - [x] Property CTA
+  - [x] Listing header
+  - [x] Listing toolbar
+  - [x] Property gallery
+  - [x] Property overview
+  - [x] Property details
+  - [x] Property location
+  - [x] Composed property page layout
 - [ ] Phase 3 — Property & Business Patterns
 - [ ] Phase 4 — Complete Templates
 - [ ] Phase 5 — Integration Readiness
