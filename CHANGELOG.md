@@ -38,6 +38,13 @@ All notable changes to BrokriO Nexus are documented here.
 - Added reusable section heading pattern.
 - Added property status badge pattern.
 
+### Property UI Patterns
+- Added reusable property filter bar.
+- Added property grid pattern.
+- Added property metadata pattern.
+- Added agent card pattern.
+- Added property inquiry/viewing CTA pattern.
+
 ### Progress
 - Phase 1 FSE Foundation is complete at repository-validation level.
 - Phase 2 Design System is now in active implementation.
