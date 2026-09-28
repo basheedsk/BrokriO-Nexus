@@ -1,11 +1,11 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 98%
+## Current Overall Progress: 96%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
 ### Current Stage
-**Phase 4 — Runtime QA & Performance Validation**
+**Phase 5 — Marketplace Visual Redesign**
 
 Completed:
 - Theme product/development plan
@@ -40,6 +40,18 @@ Completed:
 - LiteSpeed cache and object cache are enabled; minification/image optimization/lazy-loading are currently disabled.
 - Route audit calls for homepage, sample-page and a deliberately missing route completed successfully, but the audit endpoint returns performance measurements rather than a full interactive browser test.
 
+## Phase 5 — Marketplace Visual Redesign
+
+Implemented in the current redesign pass:
+- Premium editorial real-estate color direction and typography scale.
+- Reworked header with BROKRIO wordmark, navigation and seller CTA.
+- Image-led hero with stronger hierarchy and property discovery messaging.
+- Featured property presentation with real-estate imagery, prices, locations and metadata.
+- Property-type discovery section.
+- Marketplace-style stats/trust section.
+- Refined responsive spacing, card motion and mobile behavior.
+- WPVibe draft preview generated for visual inspection; live theme remains unchanged.
+
 ## Roadmap
 - [x] Phase 0 — Product plan
 - [x] Phase 1 — FSE Foundation
@@ -72,12 +84,12 @@ Before each major step:
 Avoid unrelated feature expansion until the current milestone is complete.
 
 ## Current Next Step
-Complete the remaining runtime checks that require interactive browser behavior and WordPress code validation, then close the release gate.
+Review the Phase 5 draft preview visually, then iterate on any remaining homepage issues before publishing or syncing the final marketplace presentation.
 
 ## Progress Updates
 Each major implementation response should end with:
 
-**Progress:** X%  
+**Progress:** 96%  
 **Completed:** ...  
 **Next:** ...
 
