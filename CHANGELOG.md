@@ -51,6 +51,13 @@ All notable changes to BrokriO Nexus are documented here.
 - Added property details and location patterns.
 - Added a composed property page layout using reusable components.
 
+### Responsive & Component Polish
+- Added responsive column behavior for property layouts.
+- Improved mobile touch targets and button sizing.
+- Added responsive search control behavior.
+- Added focus interaction polish for controls.
+- Improved image display/object-fit behavior.
+
 ### Progress
 - Phase 1 FSE Foundation is complete at repository-validation level.
 - Phase 2 Design System is now in active implementation.
