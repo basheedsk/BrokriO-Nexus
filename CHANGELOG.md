@@ -105,3 +105,14 @@ These patterns extend the existing property discovery system into advisor and ag
 - Added partner conversion CTA.
 - Added composed homepage conversion flow.
 - Added composed property conversion flow integrating discovery, trust and enquiry patterns.
+
+### Template Integration & Final QA
+- Integrated homepage conversion patterns into the main index template.
+- Integrated property conversion flow into the single template.
+- Simplified page template to the shared content shell.
+- Aligned archive template card styling with design tokens.
+- Polished the 404 template and confirmed shared header/footer usage.
+- Verified all core templates reference the shared header and footer parts.
+
+### QA Scope
+Repository-level structural validation completed. Live WordPress rendering, Theme Check, PHP lint and browser/device testing remain runtime QA items.
