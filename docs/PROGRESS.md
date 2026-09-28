@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 55%
+## Current Overall Progress: 60%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -58,6 +58,11 @@ Remaining in Phase 1:
   - [x] Responsive search controls
   - [x] Focus/interaction polish
   - [x] Image/object-fit polish
+  - [x] Responsive header structure
+  - [x] Mobile navigation mode
+  - [x] Header brand identity
+  - [x] Footer navigation structure
+  - [x] Footer responsive layout
 - [ ] Phase 3 — Property & Business Patterns
 - [ ] Phase 4 — Complete Templates
 - [ ] Phase 5 — Integration Readiness
