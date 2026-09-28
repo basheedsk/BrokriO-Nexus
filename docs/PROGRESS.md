@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 96%
+## Current Overall Progress: 97%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -80,7 +80,7 @@ Before each major step:
 Avoid unrelated feature expansion until the current milestone is complete.
 
 ## Current Next Step
-Install/update the GitHub theme and verify the default homepage presentation in WordPress; then continue with marketplace-level property archive and single-property polish.
+Install/update the GitHub theme and verify the complete marketplace system in WordPress; runtime/browser certification remains the final release gate.
 
 ## Progress Updates
 Each major implementation response should end with:
