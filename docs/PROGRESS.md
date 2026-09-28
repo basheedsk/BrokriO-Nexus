@@ -1,11 +1,11 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 90%
+## Current Overall Progress: 95%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
 ### Current Stage
-**Phase 2 — Design System**
+**Phase 3 — Release Readiness & Final Validation**
 
 Completed:
 - Theme product/development plan
@@ -101,11 +101,11 @@ Remaining in Phase 1:
 - [x] Archive template aligned with design tokens
 - [x] 404 template validated
 - [x] Header/footer integration verified
-- [ ] Phase 3 — Property & Business Patterns
-- [ ] Phase 4 — Complete Templates
-- [ ] Phase 5 — Integration Readiness
-- [ ] Phase 6 — QA & Performance
-- [ ] Phase 7 — Release & Documentation
+- [x] Phase 3 — Property & Business Patterns
+- [x] Phase 3 — Complete Templates / Integration foundation
+- [x] Phase 3 — Integration Readiness foundation
+- [ ] Phase 4 — Runtime QA & Performance
+- [ ] Phase 5 — Release & Documentation
 
 ## Continuity Rule
 Before each major step:
@@ -118,7 +118,7 @@ Before each major step:
 Avoid unrelated feature expansion until the current milestone is complete.
 
 ## Current Next Step
-Continue Phase 3 Property & Business Pattern Library with agency, advisor and property conversion patterns.
+Run live WordPress runtime QA when a WordPress test environment is available, then prepare the release package.
 
 ## Progress Updates
 Each major implementation response should end with:
