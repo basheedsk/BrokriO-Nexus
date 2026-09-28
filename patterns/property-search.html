@@ -6,10 +6,17 @@
  * Inserter: true
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}},"border":{"radius":"var:preset|border-radius|lg","width":"1px","color":"var:preset|color|border"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-border-color" style="border-radius:var(--wp--preset--border-radius--lg);border-width:1px;padding:24px">
-<!-- wp:heading {"level":2,"fontSize":"xl"} --><h2 class="wp-block-heading has-xl-font-size">Find your next property</h2><!-- /wp:heading -->
-<!-- wp:paragraph {"textColor":"muted"} --><p class="has-muted-color has-text-color">Search by location, property type, budget or keyword.</p><!-- /wp:paragraph -->
-<!-- wp:search {"label":"Property search","showLabel":false,"buttonText":"Search properties","buttonPosition":"button-inside","style":{"border":{"radius":"999px"}}} /-->
+<!-- wp:group {"className":"brokrio-search-panel","backgroundColor":"white","style":{"spacing":{"padding":{"top":"22px","bottom":"22px","left":"26px","right":"26px"}},"border":{"radius":"var:preset|border-radius|lg","width":"1px","color":"var:preset|color|border"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group brokrio-search-panel has-white-background-color has-background has-border-color" style="border-radius:var(--wp--preset--border-radius--lg);border-width:1px;padding:22px 26px">
+<!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between","flexWrap":"wrap","verticalAlignment":"bottom"}} -->
+<div class="wp-block-group">
+<!-- wp:group {"layout":{"type":"constrained"}} --><div class="wp-block-group">
+<!-- wp:paragraph {"textColor":"brand","fontSize":"xs","className":"brokrio-eyebrow"} --><p class="has-brand-color has-text-color has-xs-font-size brokrio-eyebrow">PROPERTY SEARCH</p><!-- /wp:paragraph -->
+<!-- wp:heading {"level":2,"fontSize":"lg"} --><h2 class="wp-block-heading has-lg-font-size">Where would you like to live?</h2><!-- /wp:heading -->
+</div><!-- /wp:group -->
+<!-- wp:paragraph {"textColor":"muted","fontSize":"sm"} --><p class="has-muted-color has-text-color has-sm-font-size">Search by location, property type or keyword.</p><!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+<!-- wp:search {"label":"Property search","showLabel":false,"buttonText":"Search properties","buttonPosition":"button-inside","className":"brokrio-search","style":{"border":{"radius":"999px"}}} /-->
 </div>
 <!-- /wp:group -->
