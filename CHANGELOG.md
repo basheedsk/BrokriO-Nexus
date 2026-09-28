@@ -98,3 +98,10 @@ These patterns extend the existing property discovery system into advisor and ag
 - Added three-step how-it-works section.
 - Added advisor conversion CTA.
 - Added composed homepage layout combining discovery, trust and conversion patterns.
+
+### Conversion Flows & Template Integration
+- Added property enquiry form pattern.
+- Added seller conversion CTA.
+- Added partner conversion CTA.
+- Added composed homepage conversion flow.
+- Added composed property conversion flow integrating discovery, trust and enquiry patterns.
