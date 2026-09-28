@@ -72,3 +72,15 @@ All notable changes to BrokriO Nexus are documented here.
 - Phase 1 FSE Foundation is complete at repository-validation level.
 - Phase 2 Design System foundation is validated; Phase 3 is the next major milestone.
 
+
+## Phase 3 — Property & Business Pattern Library
+
+### Added
+- Property feature list pattern
+- Property status pattern
+- Property contact card pattern
+- Agent profile pattern
+- Agent property list pattern
+- Agency introduction pattern
+
+These patterns extend the existing property discovery system into advisor and agency business experiences.
