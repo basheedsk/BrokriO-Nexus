@@ -20,7 +20,12 @@ All notable changes to BrokriO Nexus are documented here.
 - Corrected escaped font-family values in `theme.json`.
 - Added foundational image sizing and link behavior.
 
+### Validation
+- Completed repository-level Phase 1 final validation.
+- Confirmed required foundation files, template parts, templates, metadata and accessibility foundations are present.
+- Documented runtime limitations: live WordPress activation, browser rendering, PHP lint and Theme Check remain environment-dependent.
+
 ### Progress
-- Phase 1 foundation expanded and validation polish started.
-- Next milestone: complete Phase 1 validation, then begin Phase 2 Design System.
+- Phase 1 FSE Foundation is complete at repository-validation level.
+- Phase 2 Design System is now the active milestone.
 
