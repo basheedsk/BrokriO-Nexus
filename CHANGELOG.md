@@ -58,6 +58,11 @@ All notable changes to BrokriO Nexus are documented here.
 - Added focus interaction polish for controls.
 - Improved image display/object-fit behavior.
 
+### Header, Footer & Navigation
+- Polished responsive header structure with logo, site title and mobile navigation.
+- Expanded footer with navigation, product positioning and legal utility links.
+- Improved responsive wrapping for header and footer content.
+
 ### Progress
 - Phase 1 FSE Foundation is complete at repository-validation level.
 - Phase 2 Design System is now in active implementation.
