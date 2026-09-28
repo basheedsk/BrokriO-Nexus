@@ -1,6 +1,6 @@
 # BrokriO Nexus — Project Progress
 
-## Current Overall Progress: 75%
+## Current Overall Progress: 80%
 
 > Progress is based on the agreed v1.0 roadmap, not on file count.
 
@@ -79,6 +79,13 @@ Remaining in Phase 1:
   - [x] Trust signals
   - [x] Testimonial strip
   - [x] Business contact conversion
+
+## Phase 3 — Homepage & Conversion Experience
+- [x] Property search hero
+- [x] Featured properties
+- [x] How it works
+- [x] Advisor conversion CTA
+- [x] Composed homepage layout
 - [ ] Phase 3 — Property & Business Patterns
 - [ ] Phase 4 — Complete Templates
 - [ ] Phase 5 — Integration Readiness
