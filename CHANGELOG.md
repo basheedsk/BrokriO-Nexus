@@ -32,6 +32,12 @@ All notable changes to BrokriO Nexus are documented here.
 - Added global heading, link, button and form-control foundations.
 - Documented the design system in `docs/DESIGN-SYSTEM.md`.
 
+### UI Components
+- Added reusable property card pattern.
+- Added property search pattern.
+- Added reusable section heading pattern.
+- Added property status badge pattern.
+
 ### Progress
 - Phase 1 FSE Foundation is complete at repository-validation level.
 - Phase 2 Design System is now in active implementation.
