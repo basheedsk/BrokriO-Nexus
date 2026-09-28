@@ -13,3 +13,53 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: brokrio-nexus
 Tags: block-patterns, full-site-editing, real-estate, property, blog, portfolio, translation-ready
 */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-underline-offset: 0.18em;
+}
+
+:focus-visible {
+  outline: 3px solid var(--wp--preset--color--brand);
+  outline-offset: 3px;
+}
+
+.wp-block-button__link,
+button,
+input,
+select,
+textarea {
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media (max-width: 781px) {
+  .wp-block-navigation__responsive-container.is-menu-open {
+    padding: 24px;
+  }
+}
