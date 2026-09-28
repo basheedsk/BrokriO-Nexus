@@ -7,29 +7,23 @@ Description: A next-generation real estate WordPress block theme built with Full
 Requires at least: 6.6
 Tested up to: 6.9
 Requires PHP: 7.4
-Version: 0.1.0
+Version: 0.2.0
 License: GNU General Public License v3.0 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: brokrio-nexus
 Tags: block-patterns, full-site-editing, real-estate, property, blog, portfolio, translation-ready
 */
 
-html {
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body {
   text-rendering: optimizeLegibility;
+  background: var(--wp--preset--color--white);
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+img { max-width: 100%; height: auto; }
 
-a {
-  text-underline-offset: 0.18em;
-}
+a { text-underline-offset: 0.18em; }
 
 :focus-visible {
   outline: 3px solid var(--wp--preset--color--brand);
@@ -44,48 +38,126 @@ textarea {
   transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
+.wp-block-button__link:hover {
+  transform: translateY(-1px);
+}
 
-  *,
-  *::before,
-  *::after {
+.brokrio-wordmark {
+  margin: 0 !important;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+}
+
+.brokrio-wordmark a { color: inherit; }
+
+.brokrio-header {
+  position: relative;
+  z-index: 20;
+}
+
+.brokrio-header .wp-block-navigation {
+  margin-left: auto;
+}
+
+.brokrio-header .wp-block-navigation-item__content {
+  color: var(--wp--preset--color--ink);
+}
+
+.brokrio-header-actions {
+  margin-left: 12px;
+}
+
+.brokrio-hero {
+  overflow: hidden;
+  box-shadow: var(--wp--preset--shadow--soft);
+}
+
+.brokrio-hero .wp-block-cover__image-background {
+  transform: scale(1.01);
+}
+
+.brokrio-hero-title {
+  max-width: 780px;
+}
+
+.brokrio-hero-copy {
+  max-width: 650px;
+}
+
+.brokrio-eyebrow {
+  font-weight: 750;
+  letter-spacing: 0.12em;
+}
+
+.brokrio-hero + .wp-block-group,
+.brokrio-search-panel {
+  position: relative;
+  z-index: 5;
+}
+
+.brokrio-search-panel {
+  margin-top: -72px;
+  margin-bottom: 24px;
+  box-shadow: var(--wp--preset--shadow--float);
+}
+
+.brokrio-property-card {
+  overflow: hidden;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.brokrio-property-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 44px rgba(11,23,32,0.12);
+}
+
+.brokrio-card-image,
+.brokrio-card-image .wp-block-cover__image-background {
+  border-radius: 0 !important;
+}
+
+.brokrio-status {
+  margin: 18px !important;
+  display: inline-block;
+  border-radius: 999px;
+  padding: 7px 10px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.brokrio-section + .brokrio-section { margin-top: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
   }
 }
 
-@media (max-width: 781px) {
-  .wp-block-navigation__responsive-container.is-menu-open {
-    padding: 24px;
-  }
+@media (max-width: 1024px) {
+  .brokrio-header-actions { display: none; }
+  .brokrio-header .wp-block-navigation { margin-left: 0; }
 }
 
-/* Phase 2 component polish */
-.wp-block-columns { align-items: stretch; }
-.wp-block-column > .wp-block-group { height: 100%; box-sizing: border-box; }
-.wp-block-image img { display: block; width: 100%; object-fit: cover; }
-.wp-block-button__link:focus-visible,
-.wp-block-search__button:focus-visible,
-input:focus-visible,
-select:focus-visible,
-textarea:focus-visible { box-shadow: 0 0 0 4px var(--wp--preset--color--brand-soft); }
-.wp-block-button__link:hover { transform: translateY(-1px); }
 @media (max-width: 781px) {
   .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column { flex-basis: 100% !important; }
-  .wp-block-cover { min-height: 220px !important; }
-  .wp-block-heading.has-3xl-font-size { font-size: clamp(2.5rem, 11vw, 4rem); }
-  .wp-block-group { max-width: 100%; }
+  .wp-block-cover { min-height: 260px !important; }
+  .brokrio-hero { min-height: 620px !important; }
+  .brokrio-hero-title { font-size: clamp(2.8rem, 13vw, 4.5rem) !important; }
+  .brokrio-search-panel { margin-top: -44px; }
   .wp-block-buttons { flex-wrap: wrap; }
   .wp-block-button { max-width: 100%; }
-  .wp-block-button__link { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+  .wp-block-button__link { min-height: 46px; display: inline-flex; align-items: center; justify-content: center; }
+  .brokrio-property-grid { gap: 16px !important; }
 }
+
 @media (max-width: 480px) {
   .wp-block-search { width: 100%; }
   .wp-block-search__inside-wrapper { flex-wrap: wrap; }
   .wp-block-search__input { min-width: 0; width: 100%; }
   .wp-block-search__button { width: 100%; margin-left: 0; }
+  .brokrio-hero { min-height: 660px !important; }
 }
