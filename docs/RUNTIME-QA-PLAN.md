@@ -18,8 +18,11 @@
 - [ ] Confirm no unnecessary third-party assets are loaded.
 - [ ] Test cache/compression behavior on the deployed host.
 
+## Runtime environment
+A local Docker Compose environment is now defined in `docker-compose.yml` using WordPress + MySQL, with the repository mounted as the BrokriO Nexus theme. Start it locally with Docker Compose, complete the WordPress setup, activate the theme, and use the checklist below.
+
 ## Current result
-Repository inspection is complete, but runtime QA cannot be certified without a WordPress environment and representative content/data.
+Runtime environment definition is complete. Actual browser/rendering, form, Theme Check, PHP lint and performance measurements still require the environment to be started and tested.
 
 ## Release gate
 Phase 4 remains open until the runtime checklist and performance measurements are recorded.
